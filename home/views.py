@@ -35,3 +35,11 @@ def save_data(request):
         'massage' :'some thing wronge'
         
     })
+
+
+
+
+def get_trasantions(request):
+     trans= Transations.objects.all()
+
+     return response()
